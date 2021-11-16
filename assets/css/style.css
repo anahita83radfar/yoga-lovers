@@ -325,3 +325,7 @@ footer {
 .courses-bg-img {
     background-image: linear-gradient(rgba(210, 210, 210, 0.7),rgba(3,8,40,0.7)), url(../images/courses-page-bg.jpg);
 }
+
+.courses-category h2 {
+    font-size: 5vmin;
+}
