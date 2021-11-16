@@ -27,6 +27,29 @@ img {
     width: 100%;
 }
 
+/* Fitfix */
+.fitfix {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Button */
+.btn {
+    color: inherit;
+    padding: 5px 20px;
+    background-color: rgb(114, 1, 65);
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+.btn:hover {
+    background-color: transparent;
+    border: 1px solid #fff;
+    transition: 1s;
+}
+
 /* HEADER */
 header {
     width: 100%;
@@ -115,4 +138,21 @@ nav a:hover {
     to {
         transform: scale(1.1);
     }
+}
+
+.banner-content {
+    width: 100%;
+    text-align: center;
+}
+
+.banner-content h1 {
+    font-size: 7vmin;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.banner-content p {
+    font-size: 3vmin;
+    letter-spacing: 4px;
 }
