@@ -14,3 +14,25 @@ body {
     font-weight: 300;
     color: #3a3a3a;
 }
+
+/* a */
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+
+/* HEADER */
+
+/* Logo */
+.logo img {
+    width: 100px;
+    vertical-align: middle;
+}
+
+.brand {
+    font-size: 100%;
+    font-family: 'Cinzel Decorative', cursive;
+    display: inline;
+    vertical-align: middle;
+}
