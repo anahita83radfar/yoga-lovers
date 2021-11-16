@@ -22,6 +22,11 @@ a {
     color: inherit;
 }
 
+/* Img */
+img {
+    width: 100%;
+}
+
 /* HEADER */
 header {
     width: 100%;
@@ -71,4 +76,43 @@ nav ul li {
 nav a:hover {
     border-bottom: 1px solid #7c4765;
     color: #7c4765;
+}
+
+/* MAIN */
+
+/* Banner section */
+.banner {
+    width: 100%;
+    height: calc(100vh - 128px);
+    overflow: hidden;
+    position: relative;
+    color: whitesmoke;
+    margin-top: 128px;
+}
+
+.banner-bg-img {
+    width: 100%;
+    height: calc(100vh - 128px);
+    background-image: linear-gradient(rgba(210, 210, 210, 0.7),rgba(3,8,40,0.7)), url(../images/banner-image.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* Zoom effect */
+.zoom {    
+    
+    animation-name: banner-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* The level of zoom for banner background image */
+@keyframes banner-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
 }
