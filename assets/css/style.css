@@ -277,3 +277,14 @@ nav a:hover {
 .testimonial-textarea i {
     color: lightsalmon;
 }
+
+/* Flexible section */
+.flexible-bg-img {
+    width: 100%;
+    height: 350px;
+    background-image: linear-gradient(rgba(210, 210, 210, 0.7),rgba(3,8,40,0.7)), url(../images/banner-flexibel-image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
