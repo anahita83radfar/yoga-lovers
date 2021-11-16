@@ -92,7 +92,7 @@ header a {
 }
 
 .brand {
-    font-size: 100%;
+    font-size: 25px;
     font-family: 'Cinzel Decorative', cursive;
     display: inline;
     vertical-align: middle;
@@ -208,4 +208,21 @@ nav a:hover {
 .courses-element .overlay:hover {
     background: rgba(3,8,40,0.4);
     transition: 1s;
+}
+
+.courses-element h3 {
+    width: 100%;
+    color: whitesmoke;
+    font-size: 24px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 1s;
+}
+
+.courses-element .overlay:hover h3 {
+    bottom: 45%;
+    opacity: 1;
 }
