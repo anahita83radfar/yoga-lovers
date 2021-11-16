@@ -329,3 +329,57 @@ footer {
 .courses-category h2 {
     font-size: 5vmin;
 }
+
+/* Courses page main section */
+.courses-category-element {
+    width: 80%;
+    margin: 40px auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.courses-category-element img {
+    display: block;
+}
+
+.courses-category-element .overlay:hover {
+    background: rgba(3,8,40,0.7);
+    transition: 1s;
+}
+
+.courses-category-element h3 {
+    width: 60%;
+    color: whitesmoke;
+    background: rgba(124, 71, 101,0.7);
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 4vmin;
+    bottom: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+.courses-category-element .overlay:hover h3 {
+    opacity: 0;
+}
+
+.courses-category-element p {
+    width: 80%;
+    color: whitesmoke;
+    font-size: 3vmin;
+    line-height: 40px;
+    text-align: justify;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 1s;
+}
+
+.courses-category-element .overlay:hover p {
+    bottom: 40%;
+    opacity: 1;
+}
