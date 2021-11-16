@@ -288,3 +288,8 @@ nav a:hover {
     background-attachment: fixed;
     position: relative;
 }
+
+.flexible-content {
+    text-align: center;
+    color: whitesmoke;
+}
