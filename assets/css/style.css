@@ -1,3 +1,16 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Mohave:wght@300&display=swap');
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
 body {
-    font-family: Arial;
+    font-family: 'Mohave', sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
 }
