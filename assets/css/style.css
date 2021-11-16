@@ -293,3 +293,28 @@ nav a:hover {
     text-align: center;
     color: whitesmoke;
 }
+
+/* FOOTER */
+footer {
+    background: #7a6b5d;
+    color: whitesmoke;
+    padding: 20px 40px;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media li {
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.social-media i {
+    font-size: 180%;
+}
+
+.mail {
+    text-align: right;
+}
