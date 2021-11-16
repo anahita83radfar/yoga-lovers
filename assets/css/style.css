@@ -273,3 +273,7 @@ nav a:hover {
     text-align: justify;
     margin-top: 5px;
 }
+
+.testimonial-textarea i {
+    color: lightsalmon;
+}
