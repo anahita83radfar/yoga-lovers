@@ -27,6 +27,11 @@ img {
     width: 100%;
 }
 
+/* Title and text */
+h2 {
+    font-size: 280%;
+}
+
 /* Fitfix */
 .fitfix {
     position: absolute;
@@ -155,4 +160,16 @@ nav a:hover {
 .banner-content p {
     font-size: 3vmin;
     letter-spacing: 4px;
+}
+
+/* Courses section */
+.courses {
+    width: 80%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.courses p {
+    font-size: 16px;
+    line-height: 24px;
 }
