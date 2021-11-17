@@ -461,3 +461,142 @@ footer {
     }
 
 }
+
+/* For large to medium screens size from 992px wide and down */
+@media screen and (max-width: 992px) {
+    .courses-category {
+        width: 90%;
+        margin: 40px auto;
+    }
+
+    .courses-category-element .overlay:hover p {
+        top: 20%;
+    }
+}
+
+/* For large to medium screens size from 768px wide and down */
+@media screen and (max-width: 768px) {
+    nav {
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    nav ul li {
+        width: 30%;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .banner-content h1 {
+        font-size: 5vmin;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+    
+    .col {
+        margin: 15px 0;
+    }
+
+    .courses {
+        width: 60%;
+        margin: 40px auto;
+    }
+
+    .courses-category {
+        width: 90%;
+        margin: 40px auto;
+    }
+
+    .courses-category-element .overlay:hover p {
+        top: 10%;
+    }
+
+    footer .row {
+        flex-direction: row;
+    }
+}
+
+/* For large to medium screens size from 576px wide and down */
+@media screen and (max-width: 576px) {
+    .logo .brand {
+        font-size: 15px;
+    }
+
+    .logo img {
+        width: 50px;
+    }
+
+    header a {
+        letter-spacing: 1px;
+    }
+
+    nav {
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    nav ul li {
+        width: 30%;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .banner {
+        height: calc(100vh - 100px);
+        margin-top: 100px;
+    }
+
+    .banner-bg-img {
+        height: calc(100vh - 100px);
+    }
+
+    .banner-content h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 180%;
+    }
+
+    .courses-element h3 {
+        font-size: 20px;
+    }
+
+    footer .row {
+        flex-direction: column;
+    }
+
+    .courses-category h2 {
+        font-size: 26px;
+    }
+
+    .courses-category-element {
+        width: 90%;
+    }
+
+    .courses-category-element h3 {
+        width: 80%;
+        font-size: 18px;
+    }
+
+    .courses-category-element p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .courses-category-element .overlay:hover p {
+        top: 10%;
+    }
+
+    .signup-form {
+        margin: 15px;
+    }
+    
+    .signup-form h2 {
+        font-size: 200%;
+    }
+}
