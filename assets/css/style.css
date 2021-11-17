@@ -326,6 +326,12 @@ footer {
     background-image: linear-gradient(rgba(210, 210, 210, 0.7),rgba(3,8,40,0.7)), url(../images/courses-page-bg.jpg);
 }
 
+.courses-category {
+    width: 80%;
+    margin: 100px auto;
+    text-align: center;
+}
+
 .courses-category h2 {
     font-size: 5vmin;
 }
@@ -371,7 +377,7 @@ footer {
     font-size: 3vmin;
     line-height: 40px;
     text-align: justify;
-    bottom: 0;
+    top: 0;
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
@@ -380,7 +386,7 @@ footer {
 }
 
 .courses-category-element .overlay:hover p {
-    bottom: 40%;
+    top: 40%;
     opacity: 1;
 }
 
@@ -393,7 +399,7 @@ footer {
     background-attachment: fixed;
     background-image: linear-gradient(rgba(210, 210, 210, 0.7),rgba(3,8,40,0.7)), url(../images/signup.jpg);
     margin-top: 128px;
-    padding: 150px 0;
+    padding: 152px 0;
 }
 
 .signup-form {
@@ -442,3 +448,154 @@ footer {
     display: block;
 }
 
+/* MEDIA QUERIES */
+
+/* For large to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    .banner-content h1 {
+        font-size: 6vmin;
+    }
+
+    .courses-category-element .overlay:hover p {
+        top: 25%;
+    }
+
+}
+
+/* For large to medium screens size from 992px wide and down */
+@media screen and (max-width: 992px) {
+    .courses-category-element .overlay:hover p {
+        top: 20%;
+    }
+
+    .courses-category {
+        width: 90%;
+        margin: 40px auto;
+    }
+}
+
+/* For large to medium screens size from 768px wide and down */
+@media screen and (max-width: 768px) {
+    nav {
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    nav ul li {
+        width: 30%;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .banner-content h1 {
+        font-size: 5vmin;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+    
+    .col {
+        margin: 15px 0;
+    }
+
+    .courses {
+        width: 60%;
+        margin: 40px auto;
+    }
+
+    .courses-category {
+        width: 90%;
+        margin: 40px auto;
+    }
+
+    footer .row {
+        flex-direction: row;
+    }
+    .courses-category-element .overlay:hover p {
+        top: 10%;
+    }
+}
+
+/* For large to medium screens size from 576px wide and down */
+@media screen and (max-width: 576px) {
+    .logo .brand {
+        font-size: 15px;
+    }
+
+    .logo img {
+        width: 50px;
+    }
+
+    header a {
+        letter-spacing: 1px;
+    }
+
+    nav {
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    nav ul li {
+        width: 30%;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .banner {
+        height: calc(100vh - 100px);
+        margin-top: 100px;
+    }
+
+    .banner-bg-img {
+        height: calc(100vh - 100px);
+    }
+
+    .banner-content h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 180%;
+    }
+
+    .courses-element h3 {
+        font-size: 20px;
+    }
+
+    footer .row {
+        flex-direction: column;
+    }
+
+    .courses-category h2 {
+        font-size: 26px;
+    }
+
+    .courses-category-element {
+        width: 90%;
+    }
+
+    .courses-category-element h3 {
+        width: 80%;
+        font-size: 18px;
+    }
+
+    .courses-category-element p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .courses-category-element .overlay:hover p {
+        top: 10%;
+    }
+
+    .signup-form {
+        margin: 15px;
+    }
+    
+    .signup-form h2 {
+        font-size: 200%;
+    }
+}
