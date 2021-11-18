@@ -75,4 +75,6 @@ User of this website will be able to find all the information they need to know 
 
 - This website has been tested in diffrent browsers: Chrome, Firefox and Safari.
 
-- This website is responsive for different devices such as desktop pc, tablet and mobile. It functions on all standars screen sizes
+- This website is responsive for different devices such as desktop pc, tablet and mobile. It functions on all standars screen sizes.
+
+- 
