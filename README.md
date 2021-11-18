@@ -90,9 +90,9 @@ User of this website will be able to find all the information they need to know 
 ### Validator Testing
 
 - HTML
-  - No errors were returned when passing through the official W3C validator
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
 - CSS
-  - No errors were found when passing through the official (Jigsaw) validator
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
 - Accessibility
 
 ![Navigation bar](/assets/images/readme/accessibility.jpg)
@@ -107,8 +107,8 @@ The live link can be found here - https://anahita83radfar.github.io/yoga-lovers/
 
 # Credits
 ### Content
-- The icons in the footer and sign up form were taken from Font Awesome
-- The code to make zoom effect animation on home and courses page banner, and the code to make sign up form was taken from the CI Love Running project. 
+- The icons in the footer and sign up form were taken from [Font Awesome](https://fontawesome.com/)
+- The code to make zoom effect animation on home and courses page banner, and the code to make sign up form was taken from the CI [Love Running](https://#) project. 
 
 ### Media
-- The photos used on the home, courses and sign up page are from Pexels
+- The photos used on the home, courses and sign up page are from [Pexels](https://www.pexels.com/sv-se/)
