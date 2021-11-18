@@ -90,4 +90,25 @@ User of this website will be able to find all the information they need to know 
 ### Validator Testing
 
 - HTML
-  - 
+  - No errors were returned when passing through the official W3C validator
+- CSS
+  - No errors were found when passing through the official (Jigsaw) validator
+- Accessibility
+
+![Navigation bar](/assets/images/readme/accessibility.jpg)
+  
+# Deployment
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here - https://anahita83radfar.github.io/yoga-lovers/
+
+# Credits
+### Content
+- The icons in the footer and sign up form were taken from Font Awesome
+- The code to make zoom effect animation on home and courses page banner, and the code to make sign up form was taken from the CI Love Running project. 
+
+### Media
+- The photos used on the home, courses and sign up page are from Pexels
