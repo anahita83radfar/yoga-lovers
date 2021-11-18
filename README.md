@@ -75,6 +75,19 @@ User of this website will be able to find all the information they need to know 
 
 - This website has been tested in diffrent browsers: Chrome, Firefox and Safari.
 
-- This website is responsive for different devices such as desktop pc, tablet and mobile. It functions on all standars screen sizes.
+- This website is responsive for different devices such as desktop pc, tablet and mobile. It functions on all standars screen sizes using the devtools device toolbar.
 
-- 
+- Diffrent part of the website such as header, footer, courses section, testimonial section, flexible section, main section on courses page and sign up page all are easy to understand and readable.
+
+### Bugs
+#### Solved bugs
+- When I deployed my project to GitHub Pages and I tried to test it by devtools on the ipad dimention I discovered that the Sign Up page does not cover our entire frame and there is a blank white space at the bottom of the footer.
+- I fixed problem by changing html code and style for the form section on the Sign Up page.
+
+![Navigation bar](/assets/images/readme/bug-html.jpg)
+![Navigation bar](/assets/images/readme/bug-css.jpg)
+
+### Validator Testing
+
+- HTML
+  - 
