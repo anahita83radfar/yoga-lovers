@@ -87,7 +87,3 @@ User of this website will be able to find all the information they need to know 
 ![Navigation bar](/assets/images/readme/bug-html.jpg)
 ![Navigation bar](/assets/images/readme/bug-css.jpg)
 
-### Validator Testing
-
-- HTML
-  - 
