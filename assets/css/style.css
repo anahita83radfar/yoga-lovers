@@ -386,7 +386,9 @@ footer {
 }
 
 .courses-category-element .overlay:hover p {
-    top: 40%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     opacity: 1;
 }
 
@@ -404,7 +406,7 @@ footer {
 }
 
 .signup-form {
-    width: 60%;
+    width: 50%;
     color: whitesmoke;
     background: rgba(60, 60, 60, 0.6);
     border-radius: 20px;
@@ -457,11 +459,6 @@ footer {
     .banner-content h2 {
         font-size: 6vmin;
     }
-
-    .courses-category-element .overlay:hover p {
-        top: 25%;
-    }
-
 }
 
 /* For large to medium screens size from 992px wide and down */
@@ -469,10 +466,6 @@ footer {
     .courses-category {
         width: 90%;
         margin: 40px auto;
-    }
-
-    .courses-category-element .overlay:hover p {
-        top: 20%;
     }
 }
 
@@ -512,12 +505,16 @@ footer {
         margin: 40px auto;
     }
 
-    .courses-category-element .overlay:hover p {
-        top: 10%;
-    }
-
     footer .row {
         flex-direction: row;
+    }
+
+    .signup-form {
+        width: 60%;
+    }
+
+    .signup-form h2 {
+        font-size: 180%;
     }
 }
 
@@ -588,10 +585,6 @@ footer {
     .courses-category-element p {
         font-size: 14px;
         line-height: 18px;
-    }
-
-    .courses-category-element .overlay:hover p {
-        top: 10%;
     }
 
     .signup-form {
