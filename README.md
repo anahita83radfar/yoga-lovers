@@ -22,54 +22,54 @@ The user of this website will be able to find all the information they need to k
   - The landing includes an image with text overlay and a button to allow the user to see exactly what the website is about, yoga courses.
   - This section grabs user attention with an eye-catching animation by zoom effect. With the help of the Visit us button, the user can be linked directly to the courses page for more information. 
 
-![Navigation bar](/assets/images/readme/banner.jpg)
+![The landing page image on the home page](/assets/images/readme/banner.jpg)
 
 - ### The Courses Section
   - The Courses section shows the user which courses the website offers their members. This section is divided into three sections, which each section represents a specific course.
 
-![Courses section](/assets/images/readme/courses-section.jpg)
+![The Courses section](/assets/images/readme/courses-section.jpg)
 
   - In this section by hovering over any of the images, the names of the courses appear on it. This allows the user by clicking on the desired course can be linked to the courses page where there is more information about the courses.
 
-![Meditaion part i Courses section](/assets/images/readme/courses-section-meditation.jpg)
+![The Meditation part on the Courses section](/assets/images/readme/courses-section-meditation.jpg)
 
 - ### The Testimonial Section
   - The Testimonial section introduces two customers who are sharing their positive experiences with the user. This section helps to gain the user's trust in the way that the user feels that she/he is not the first person who wants to register for these courses and also what are the benefits of these courses.
 
-![Navigation bar](/assets/images/readme/testimonial.jpg)
+![The Testimonial Section](/assets/images/readme/testimonial.jpg)
 
 - ### The Flexible Section
   - The Flexible Section includes an image with text overlay and a button to give the user a little more information about yoga.
   - In this section by fixing the background image is created this effect that the photo is flexible and mobile. This is what helps to better understand the cover text.
   - This section allows the user to be linked to the Sign Up page for registering for starting courses by clicking on the Let's start button.
   
-![Navigation bar](/assets/images/readme/flexible.jpg)
+![The Flexible Section](/assets/images/readme/flexible.jpg)
 
 - ### The Footer
   - The footer section includes the contact phone number, links to the relevant social media sites for Yoga Lovers, and e-mail address. 
   - The social media links will open to a new tab to allow easy navigation for the user and the encourages user to keep connected via social media.
 
-![Navigation bar](/assets/images/readme/footer.jpg)
+![The Footer](/assets/images/readme/footer.jpg)
 
 - ### The courses Page
   - This page has the same layout as the home page with the same header and same footer. A new photo has been used for the banner image which shows that this is a new page. The cover text is also changed to the Courses title.
 
-  ![Navigation bar](/assets/images/readme/banner-courses-page.jpg)
+  ![The Courses page header](/assets/images/readme/banner-courses-page.jpg)
 
   - The main section in the Courses page is divided into three sections, each section represents a specific course and is covered by the name of the course.
 
-  ![Navigation bar](/assets/images/readme/main-section-begginers.jpg)
-  ![Navigation bar](/assets/images/readme/main-section-meditation.jpg)
-  ![Navigation bar](/assets/images/readme/main-section-pregnancy.jpg)
+  ![The Beginners part on the Main section, on the Courses page](/assets/images/readme/main-section-begginers.jpg)
+  ![The Meditation part on the Main section, on the Courses page](/assets/images/readme/main-section-meditation.jpg)
+  ![The Pregnancy part on the Main section, on the Courses page](/assets/images/readme/main-section-pregnancy.jpg)
 
   - In this section by hovering over any of the images appears more information about the courses.
 
-  ![Navigation bar](/assets/images/readme/main-section-hover.jpg)
+  ![The Main section hover](/assets/images/readme/main-section-hover.jpg)
 
 - ### The Sign Up Page
   - This page will allow the user to get signed up to Yoga Lovers to start their courses at home. The user can choose the course that they are interested such as yoga, meditation, or pregnancy training. The user will be asked to submit their full name and email address.
 
-  ![Navigation bar](/assets/images/readme/signup.jpg)
+  ![The Sign up page](/assets/images/readme/signup.readme.jpg)
 
 # Testing
 
@@ -84,18 +84,18 @@ The user of this website will be able to find all the information they need to k
 - When I deployed my project to GitHub Pages and I tried to test it by dev tools on the iPad dimension I discovered that the Sign Up page does not cover our entire frame and there is a blank white space at the bottom of the footer.
 - I fixed the problem by changing the HTML code and style for the form section on the Sign Up page.
 
-![Navigation bar](/assets/images/readme/bug-html.jpg)
-![Navigation bar](/assets/images/readme/bug-css.jpg)
+![Bugs html](/assets/images/readme/bug-html.jpg)
+![Bugs css](/assets/images/readme/bug-css.jpg)
 
 ### Validator Testing
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fanahita83radfar.github.io%2Fyoga-lovers%2Findex.html)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fanahita83radfar.github.io%2Fyoga-lovers%2Fsignup.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
 - Accessibility
 
-![Navigation bar](/assets/images/readme/accessibility.jpg)
+![Accessibility](/assets/images/readme/accessibility.jpg)
   
 # Deployment
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
@@ -107,8 +107,9 @@ The live link can be found here - https://anahita83radfar.github.io/yoga-lovers/
 
 # Credits
 ### Content
+- The font in the Yoga Lovers website were taken from Google Fonts [Google Fonts](https://fonts.google.com/)
 - The icons in the footer and sign up form were taken from [Font Awesome](https://fontawesome.com/)
-- The code to make zoom effect animation on home and courses page banner, and the code to make sign up form was taken from the CI [Love Running](https://#) project. 
+- The code to make zoom effect animation on the home page and courses page banner, and the code to make sign up form was taken from the CI [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/03-creating-the-hero-image/02-hero-image-animation) project. 
 
 ### Media
-- The photos used on the home, courses and sign up page are from [Pexels](https://www.pexels.com/sv-se/)
+- The photos used on the home page, the courses page, and the sign up page are from [Pexels](https://www.pexels.com/sv-se/sok/yoga/)
