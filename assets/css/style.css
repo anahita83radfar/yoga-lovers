@@ -433,7 +433,7 @@ footer {
 }
 
 .text-input:hover {
-    border-color: lightsalmon;
+    border-color: rgb(114, 1, 65)n;
 }
 
 .radio_button {
@@ -447,7 +447,7 @@ footer {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: lightsalmon;
+    background-color: rgb(114, 1, 65);
     color: whitesmoke;
     display: block;
 }
@@ -596,6 +596,6 @@ footer {
     }
 
     .signup-form h2 {
-        font-size: 160%;
+        font-size: 155%;
     }
 }
