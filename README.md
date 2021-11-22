@@ -36,7 +36,7 @@ The user of this website will be able to find all the information they need to k
 - ### The Testimonial Section
   - The Testimonial section introduces two customers who are sharing their positive experiences with the user. This section helps to gain the user's trust in the way that the user feels that she/he is not the first person who wants to register for these courses and also what are the benefits of these courses.
 
-![The Testimonial Section](/assets/images/readme/testimonial.jpg)
+![The Testimonial Section](/assets/images/readme/testimonial-readme.jpg)
 
 - ### The Flexible Section
   - The Flexible Section includes an image with text overlay and a button to give the user a little more information about yoga.
@@ -69,7 +69,7 @@ The user of this website will be able to find all the information they need to k
 - ### The Sign Up Page
   - This page will allow the user to get signed up to Yoga Lovers to start their courses at home. The user can choose the course that they are interested such as yoga, meditation, or pregnancy training. The user will be asked to submit their full name and email address.
 
-  ![The Sign up page](/assets/images/readme/signup.readme.jpg)
+  ![The Sign up page](/assets/images/readme/signup-readme.jpg)
 
 # Testing
 
