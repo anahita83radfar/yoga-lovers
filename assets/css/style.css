@@ -392,6 +392,13 @@ footer {
     opacity: 1;
 }
 
+.courses-category-element .btn {
+    display: block;
+    text-align: center;
+    width: 40%;
+    margin: 20px auto;
+}
+
 /* SIGNUP PAGE */
 
 /* Signup page banner */
@@ -401,7 +408,7 @@ footer {
     background-position: center;
     background-attachment: fixed;
     background-image: linear-gradient(rgba(210, 210, 210, 0.7),rgba(3,8,40,0.7)), url(../images/signup.jpg);
-    margin-top: 128px;
+    margin-top: 100px;
     position: relative;
 }
 
@@ -460,6 +467,10 @@ footer {
         font-size: 6vmin;
     }
 
+    .courses-category-element p {
+        font-size: 2vmin;
+    }
+
     .signup-form h2 {
         font-size: 260%;
     }
@@ -515,6 +526,11 @@ footer {
 
     footer .row {
         flex-direction: row;
+    }
+
+    .courses-category-element p {
+        font-size: 16px;
+        line-height: 20px;
     }
 
     .signup-form {
@@ -595,8 +611,13 @@ footer {
     }
 
     .courses-category-element p {
-        font-size: 14px;
-        line-height: 18px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .courses-category-element .btn {
+        width: 50%;
+        margin: 8px auto;
     }
 
     .signup-form {
