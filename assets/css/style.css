@@ -459,6 +459,10 @@ footer {
     .banner-content h2 {
         font-size: 6vmin;
     }
+
+    .signup-form h2 {
+        font-size: 260%;
+    }
 }
 
 /* For large to medium screens size from 992px wide and down */
@@ -466,6 +470,10 @@ footer {
     .courses-category {
         width: 90%;
         margin: 40px auto;
+    }
+
+    .signup-form h2 {
+        font-size: 200%;
     }
 }
 
