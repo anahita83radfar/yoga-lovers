@@ -75,17 +75,27 @@ The user of this website will be able to find all the information they need to k
 
 - This website has been tested in different browsers: Chrome, Firefox, and Safari.
 
-- This website is responsive for different devices such as desktop pc, tablets, and mobile. It functions on all standard screen sizes using the dev tools device toolbar.
+- This website is responsive for different devices such as desktop pc, tablets, and mobile. It functions on all standard screen sizes using the Chrome Dev Tools device toolbar.
 
 - Different parts of the website such as header, footer, courses section, testimonial section, flexible section, the main section on courses page, and sign up page all are easy to understand and readable.
 
 ### Bugs
 #### Solved bugs
-- When I deployed my project to GitHub Pages and I tried to test it by dev tools on the iPad dimension I discovered that the Sign Up page does not cover our entire frame and there is a blank white space at the bottom of the footer.
+- When I deployed my project to GitHub Pages and I tried to test it by Chrome Dev Tools on the iPad dimension I discovered that the Sign Up page does not cover our entire frame and there is a blank white space at the bottom of the footer.
 - I fixed the problem by changing the HTML code and style for the form section on the Sign Up page.
 
 ![Bugs html](/assets/images/readme/bug-html.jpg)
 ![Bugs css](/assets/images/readme/bug-css.jpg)
+
+- To correct the Yoga Lovers website dictation errors, I checked the text of the website in Grammarly again.
+
+- I changed the titles text on the Testimonial section because it was mistakenly copied from the titles text on the Courses section.
+
+- To Improve the Lighthouse performance score on Chrome Dev Tools, I reduced the size of the photos by compressing images.
+
+- To Improve the Lighthouse accessibility score on Chrome Dev Tools, I changed the button color on the Form section on The Sign Up page.
+
+- To improve the user experience, I added the Let's start buttons under the cover text in all three parts of the main section on the Courses page.
 
 ### Validator Testing
 
@@ -109,7 +119,9 @@ The live link can be found here - https://anahita83radfar.github.io/yoga-lovers/
 ### Content
 - The font in the Yoga Lovers website were taken from Google Fonts [Google Fonts](https://fonts.google.com/)
 - The icons in the footer and sign up form were taken from [Font Awesome](https://fontawesome.com/)
-- The code to make zoom effect animation on the home page and courses page banner, and the code to make sign up form was taken from the CI [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/03-creating-the-hero-image/02-hero-image-animation) project. 
+- The code to make zoom effect animation on the home page and courses page banner, and the code to make sign up form was taken from the CI [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/03-creating-the-hero-image/02-hero-image-animation) project.
+- The code to appear the cover text on overlay images on the courses section on the Home page and the main section on the Courses page was taken from [Specific YouTube Tutorial](https://www.youtube.com/watch?v=oYRda7UtuhA&list=PLjwm_8O3suyP5kGKmwS_DM0Hs1j7fshi5&index=1)
 
 ### Media
+- The logo image on the navigation bar is from [Clipart Library](http://clipart-library.com/clip-art/yoga-transparent-background-10.htm)
 - The photos used on the home page, the courses page, and the sign up page are from [Pexels](https://www.pexels.com/sv-se/sok/yoga/)
