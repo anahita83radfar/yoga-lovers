@@ -97,6 +97,8 @@ The user of this website will be able to find all the information they need to k
 
 - To improve the user experience, I added the Let's start buttons under the cover text in all three parts of the main section on the Courses page.
 
+- I added empty onclick event listener to fix iOS hover bug
+
 ### Validator Testing
 
 - HTML
