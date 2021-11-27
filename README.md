@@ -120,7 +120,7 @@ The live link can be found here - https://anahita83radfar.github.io/yoga-lovers/
 - The font in the Yoga Lovers website were taken from Google Fonts [Google Fonts](https://fonts.google.com/)
 - The icons in the footer and sign up form were taken from [Font Awesome](https://fontawesome.com/)
 - The code to make zoom effect animation on the home page and courses page banner, and the code to make sign up form was taken from the CI [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/03-creating-the-hero-image/02-hero-image-animation) project.
-- The code to appear the cover text on overlay images on the courses section on the Home page and the main section on the Courses page was taken from [Specific YouTube Tutorial](https://www.youtube.com/watch?v=oYRda7UtuhA&list=PLjwm_8O3suyP5kGKmwS_DM0Hs1j7fshi5&index=1)
+- The code to appear the cover text on overlay images on the courses section on the Home page and the main section on the Courses page, and the Testimonial section was taken from [Specific YouTube Tutorial](https://www.youtube.com/watch?v=oYRda7UtuhA&list=PLjwm_8O3suyP5kGKmwS_DM0Hs1j7fshi5&index=1)
 
 ### Media
 - The logo image on the navigation bar is from [Clipart Library](http://clipart-library.com/clip-art/yoga-transparent-background-10.htm)
