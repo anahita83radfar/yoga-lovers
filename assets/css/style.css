@@ -149,6 +149,7 @@ nav a:hover {
 }
 
 /* Zoom effect */
+/* The code taken from the CI Love Running project */
 .zoom {
 
     animation-name: banner-zoom;
@@ -185,6 +186,7 @@ nav a:hover {
 }
 
 /* Courses section */
+/* The code taken from the Specific YouTube Tutorial */
 .courses {
     width: 80%;
     margin: 100px auto;
@@ -228,6 +230,7 @@ nav a:hover {
 }
 
 /* Testimonial section */
+/* The code taken from the Specific YouTube Tutorial */
 .testimonial {
     width: 80%;
     margin: auto;
