@@ -99,6 +99,10 @@ The user of this website will be able to find all the information they need to k
 
 - I added empty onclick event listener to fix iOS hover bug
 
+#### Unfixed bugs
+- I attempted to fix this with iOS specific css properties but this did not yield the expected results.
+
+
 ### Validator Testing
 
 - HTML
