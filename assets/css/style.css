@@ -596,10 +596,6 @@ footer {
         font-size: 20px;
     }
 
-    .flexible-bg-img {
-        background-attachment: scroll;
-    }
-
     footer .row {
         flex-direction: column;
     }
